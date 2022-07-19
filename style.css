@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: normal;
+}
+body{
+    background-color: black;
+}
+.base{
+    padding: 46px 13px 99px 16px;
+    margin: auto;
+    max-width: 612px;
+    height: 792px;
+    background-color: #fff;
+}
+
+.titleAndPicture{
+    display:flex;
+    padding-bottom:49px;
+}
+.title{
+    font-size: 44px;
+    font-weight: bold;
+}
+.titleDescription{
+    padding-top:7px;
+    font-size: 12.75px;
+    font-weight: bold;
+    background-image: linear-gradient(94deg, #ff26b2 0%,
+    #851bd9 64%, #3f0fff 100%);
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainDescription{
+    font-size: 10.75px;
+}
+.textSMedia{
+    text-decoration: underline;
+    font-size: 9.75px;
+}
+.textSMediaE{
+    font-size: 9.75px;
+}
+.headerRightSide{
+   margin: auto;
+}
+.middlePage{
+    display: flex;       
+}
+.leftSideList{
+    text-align: left;
+}
+.rightSideList{
+   padding-left: 16px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.line{
+    width: 342px;
+}
+.listTextTitle{
+    font-size: 12.75px;
+    font-weight: bold;
+}
+.listPadding{
+    padding-top:8px;
+    padding-bottom:4px;
+}
+.listPaddingRight{
+    padding-top:7px;
+    padding-bottom:5px;
+}
+.purpleListText{
+    font-size:9.75px;
+    background-image: linear-gradient(94deg, #ff26b2 0%,
+    #851bd9 64%, #3f0fff 100%);
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bigListGrayText{
+    font-size: 10.75px;
+    font-weight: bold;
+    color:#999;
+}
+.listGrayText{
+    font-size: 10.75px;
+    font-weight:300;
+    color:#999;
+}
+.listText{
+    padding-top:3px;
+    font-size: 9.5px;
+}
+
+.titlePadding{
+    padding-top:24px;
+}
+.underTitle{
+    padding-top:7px;
+    font-size: 11.5px;
+    text-decoration: underline;
+    font-weight: bold;
+}
