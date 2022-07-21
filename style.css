@@ -51,6 +51,7 @@ a{
 .iconsBox{
     display: flex;
     padding-top:6px;
+    padding-bottom:5px;
 }
 .icon{
     align-self: baseline;
@@ -111,6 +112,7 @@ a{
 }
 .bigListGrayText{
     font-size: 10px;
+    font-weight: bold;
     color:#999;
 }
 .listGrayText{
